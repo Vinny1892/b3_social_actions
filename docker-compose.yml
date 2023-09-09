@@ -10,3 +10,41 @@ services:
       - KEYCLOAK_ADMIN_PASSWORD=password
       - DB_VENDOR=h2
     command: start-dev
+    networks:
+      b3-social-actions:
+        ipv4_address: 10.0.20.5
+  postgres:
+    image: postgres:15.4
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+    networks:
+      b3-social-actions:
+        ipv4_address: 10.0.20.9
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      b3-social-actions:
+        ipv4_address: 10.0.20.6
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=app
+      - RABBITMQ_DEFAULT_PASS=seila1234
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      b3-social-actions:
+        ipv4_address: 10.0.20.7
+        
+networks:
+  b3-social-actions:
+    external: true
