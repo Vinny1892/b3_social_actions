@@ -1,19 +1,20 @@
-package com.b3.social_action.Entity;
+package com.b3.social_action.entity;
 
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.cglib.core.Local;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
-
-
+@Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(schema = "social_action")
+@Table(name = "social_action", schema = "public")
 public class SocialAction {
 
     public SocialAction(String name , String locale, LocalDateTime date, String resources){
