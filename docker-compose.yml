@@ -8,18 +8,26 @@ services:
     environment:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=password
-      - DB_VENDOR=h2
+      - KC_DB=postgres
+      - KC_DB_URL= jdbc:postgresql://postgres/keycloak
+      - KC_DB_USERNAME=root
+      - KC_DB_PASSWORD=root   
     command: start-dev
+    depends_on:
+      - postgres
     networks:
       b3-social-actions:
         ipv4_address: 10.0.20.5
   postgres:
-    image: postgres:15.4
+    build:
+      context: .
+      dockerfile: database/Dockerfile
     ports:
       - 5432:5432
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=keycloak
     networks:
       b3-social-actions:
         ipv4_address: 10.0.20.9
