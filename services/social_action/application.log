@@ -1,0 +1,428 @@
+{
+  "timestamp" : "2023-09-23T18:01:05.064-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.091-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 26096 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.094-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.124-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.124-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.524-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.566-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.916-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8085 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.921-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8085\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.922-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.923-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.964-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:05.964-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 839 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.038-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.134-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d795e4c",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.136-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.162-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.202-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.205-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.296-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.387-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:06.575-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.039-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.041-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.226-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.418-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.429-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8085\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.447-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8085 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:07.454-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 2.783 seconds (process running for 3.256)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:35.177-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:35.180-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:35.182-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.200-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.225-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 10928 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.226-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.256-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.256-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.663-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:38.711-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.058-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8085 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.063-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8085\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.065-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.066-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.106-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.106-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 849 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.181-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.278-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38128cff",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.279-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.306-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.345-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.347-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.435-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.523-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:39.704-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.157-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.159-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.338-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.534-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.545-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8085\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.559-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8085 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-09-23T18:01:40.566-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 2.734 seconds (process running for 3.165)",
+  "context" : "Social Action"
+}

@@ -1,5 +1,19 @@
 # Descrição do Projeto
 
+ O sistema visa otimizar o processo de divulgação, gerenciamento e estabelecimento de ações sociais entre a administração da B3 Social e seus colaboradores. Atualmente, a falta de um sistema adequado dificulta o acompanhamento e eficácia dessas atividades. Este sistema tem como objetivo principal proporcionar uma plataforma centralizada para cadastrar, divulgar e monitorar ações sociais, bem como facilitar o estabelecimento e gestão de contratos de ação social.
+
+# Objetivos do Sistema
+
+O sistema de Gestão de Ações Sociais da B3 Social tem os seguintes objetivos:
+
+- Facilitar o cadastro de ações sociais pela administração da B3 Social.
+- Possibilitar a divulgação eficiente das ações sociais aos colaboradores.
+- Permitir que os colaboradores manifestem interesse em participar das ações sociais.
+- Automatizar o processo de estabelecimento de contratos de ação social entre a B3 Social e seus colaboradores.
+- Fornecer um meio de acompanhamento contínuo das ações sociais em andamento.
+- Contribuir para o alcance dos objetivos estabelecidos pela B3 Social.
+
+
 
 
 # Setup
@@ -62,7 +76,13 @@ Quando rodar essa configuração toda vez que o projeto for construido(build), s
 | rabbitmq | 5672 | auxiliar |
 
 
+## Migrations
 
+ As migrations estão sendo utilizadas com a biblioteca flyway, quando entrar dentro de algum service, rodar o seguinte comando
+
+```sh
+./mvnw -D flyway.configFiles=./src/main/resources/application.properties flyway:migrate
+```
 
 
 

@@ -17,37 +17,27 @@ import java.util.UUID;
 @Table(name = "social_action", schema = "public")
 public class SocialAction {
 
-    public SocialAction(String name , String locale, LocalDateTime date, String resources){
+    public SocialAction(String name){
         this.name = name;
-        this.locale = locale;
-        this.resources = resources;
-        this.date = date;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     UUID id;
 
+    @ManyToOne
+    @JoinColumn(name="ong_id", nullable = false)
+    Ong ong;
+
     @Column
     String name;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    LocalDateTime date;
-
-    @Column
-    String locale;
-
-    @Column
-    String resources;
 
     @Temporal(TemporalType.TIMESTAMP)
      LocalDateTime createdAt;
 
     @Temporal(TemporalType.TIMESTAMP)
      LocalDateTime updatedAt;
-
-    @Column(nullable = true)
-     LocalDateTime verifiedAt;
 
 
     @PrePersist

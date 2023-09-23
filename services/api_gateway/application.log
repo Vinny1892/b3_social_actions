@@ -7630,4 +7630,130 @@ This generated password is for development use only. Your security configuration
   "logger" : "com.b3.api_gateway.config.interceptor.LogRequestInterceptor",
   "message" : "[afterCompletion][org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@4e207006][exception: null]",
   "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:22.192Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication using Java 17.0.8.1 with PID 118 (/app/target/classes started by root in /app)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:22.265Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:22.466Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:22.467Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.804Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8086 (http)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.821Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8086\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.827Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.828Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.937Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.939Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3468 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:25.972Z",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfiguration",
+  "message" : "Listening for remote restart updates on /.~~spring-boot!~/restart",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:26.370Z",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration",
+  "message" : "\n\nUsing generated security password: f46ad169-07de-42a4-84c1-5afb7b73d6a4\n\nThis generated password is for development use only. Your security configuration must be updated before running your application in production.\n",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:27.026Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1036c557, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f70ac3c, org.springframework.security.web.context.SecurityContextHolderFilter@5bd856d8, org.springframework.security.web.header.HeaderWriterFilter@6fd493ff, org.springframework.security.web.authentication.logout.LogoutFilter@65d0cd60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7df658a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d7a2b0a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b033ef1, org.springframework.security.web.session.SessionManagementFilter@7c8f4d02, org.springframework.security.web.access.ExceptionTranslationFilter@6566c07d, org.springframework.security.web.access.intercept.AuthorizationFilter@27dd0a9f]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:27.036Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure Ant [pattern='/.~~spring-boot!~/restart'] with [org.springframework.security.web.session.DisableEncodeUrlFilter@3d28b912, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a3af183, org.springframework.security.web.context.SecurityContextHolderFilter@4d71f49e, org.springframework.security.web.header.HeaderWriterFilter@18058c69, org.springframework.security.web.authentication.logout.LogoutFilter@1f670a4e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75aecdbf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69227ff3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39479353, org.springframework.security.web.access.ExceptionTranslationFilter@2c3614c5, org.springframework.security.web.access.intercept.AuthorizationFilter@6600d6b8]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:27.950Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:27.964Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8086\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:27.991Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8086 (http) with context path ''",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-09-23T20:08:28.003Z",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "Started ApiGatewayApplication in 7.449 seconds (process running for 8.127)",
+  "context" : "API Gateway"
 }

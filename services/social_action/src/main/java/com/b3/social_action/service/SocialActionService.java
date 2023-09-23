@@ -1,11 +1,12 @@
 package com.b3.social_action.service;
 
-import com.b3.social_action.dto.CreateSocialActionDTO;
-import com.b3.social_action.dto.DeleteSocialActionDTO;
-import com.b3.social_action.dto.UpdateSocialActionDTO;
+import com.b3.social_action.dto.social_action.CreateSocialActionDTO;
+import com.b3.social_action.dto.social_action.DeleteSocialActionDTO;
+import com.b3.social_action.dto.social_action.UpdateSocialActionDTO;
 import com.b3.social_action.entity.SocialAction;
+import com.b3.social_action.exceptions.UnprocessableEntityException;
+import com.b3.social_action.repository.OngRepository;
 import com.b3.social_action.repository.SocialActionRepository;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -22,6 +23,9 @@ public class SocialActionService {
 
     @Autowired
     public SocialActionRepository socialActionRepository;
+
+    @Autowired
+    public OngRepository ongRepository;
     
     
     public Page<SocialAction> listSocialActions(int page, int size){
@@ -35,13 +39,17 @@ public class SocialActionService {
 
     public CreateSocialActionDTO createSocialAction(CreateSocialActionDTO socialActionDTO){
         var socialActionEntity = socialActionDTO.toEntity();
+        var ongID = socialActionDTO.ong_uuid().get();
+        var isOngExist = ongRepository.findById(ongID);
+        if(isOngExist.isEmpty()){
+            throw  new UnprocessableEntityException("erro ao inserir");
+        }
+        socialActionEntity.setOng(isOngExist.get());
         var socialActionSave = socialActionRepository.save(socialActionEntity);
         return  new CreateSocialActionDTO(
                 Optional.of(socialActionSave.getId()),
-                socialActionSave.getName(),
-                socialActionSave.getDate(),
-                socialActionSave.getLocale(),
-                socialActionSave.getResources()
+                Optional.of(ongID),
+                socialActionSave.getName()
         );
     }
     public Optional<UpdateSocialActionDTO> updateSocialAction(UpdateSocialActionDTO socialActionDTO, UUID id){
@@ -51,17 +59,11 @@ public class SocialActionService {
         }
         var socialActionDatabase = socialActionDatabaseOptional.get();
         socialActionDatabase.setName(socialActionDTO.name());
-        socialActionDatabase.setDate(socialActionDTO.date());
-        socialActionDatabase.setLocale(socialActionDTO.locale());
-        socialActionDatabase.setResources(socialActionDTO.resource());
         socialActionRepository.save(socialActionDatabase);
 
         return Optional.of(new UpdateSocialActionDTO(
                 socialActionDatabase.getId(),
-                socialActionDatabase.getName(),
-                socialActionDatabase.getDate(),
-                socialActionDatabase.getLocale(),
-                socialActionDatabase.getResources()
+                socialActionDatabase.getName()
         ));
     }
 
@@ -74,10 +76,7 @@ public class SocialActionService {
         socialActionRepository.deleteById(id);
         return Optional.of(new DeleteSocialActionDTO(
                 socialActionDatabase.getId(),
-                socialActionDatabase.getName(),
-                socialActionDatabase.getDate(),
-                socialActionDatabase.getLocale(),
-                socialActionDatabase.getResources()
+                socialActionDatabase.getName()
         ));
     }
 

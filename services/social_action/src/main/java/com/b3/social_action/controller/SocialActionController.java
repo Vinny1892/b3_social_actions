@@ -1,9 +1,9 @@
 package com.b3.social_action.controller;
 
 
-import com.b3.social_action.dto.CreateSocialActionDTO;
-import com.b3.social_action.dto.DeleteSocialActionDTO;
-import com.b3.social_action.dto.UpdateSocialActionDTO;
+import com.b3.social_action.dto.social_action.CreateSocialActionDTO;
+import com.b3.social_action.dto.social_action.DeleteSocialActionDTO;
+import com.b3.social_action.dto.social_action.UpdateSocialActionDTO;
 import com.b3.social_action.entity.SocialAction;
 import com.b3.social_action.service.SocialActionService;
 import org.springframework.beans.factory.annotation.Autowired;
