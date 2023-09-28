@@ -8,6 +8,7 @@ services:
     environment:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=password
+      - KC_FEATURES=impersonation
       - KC_DB=postgres
       - KC_DB_URL= jdbc:postgresql://postgres/keycloak
       - KC_DB_USERNAME=root

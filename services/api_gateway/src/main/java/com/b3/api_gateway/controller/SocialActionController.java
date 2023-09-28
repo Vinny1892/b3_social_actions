@@ -7,6 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,43 +20,48 @@ import java.util.UUID;
 @RequestMapping("/social_actions")
 public class SocialActionController {
 
-    Logger logger =  LoggerFactory.getLogger(SocialActionController.class);
+    Logger logger =  LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     SocialActionRepository socialActionRepository;
 
     @GetMapping
-    public List getSocialActions(
+    public Map getSocialActions(
             @RequestParam(defaultValue = "10") int size,
-            @RequestParam(defaultValue = "1") int page)
-    {
+            @RequestParam(defaultValue = "1") int page) throws Exception {
+        var response = socialActionRepository.listPaginateSocialActions(size,page);
         logger.info("get paginate social actions");
-        return socialActionRepository.listPaginateSocialActions(size,page);
+
+        return response;
     }
 
     @GetMapping("{id}")
-    public Map getSocialActions(@PathVariable(required = true) UUID id){
+    public Map getSocialActions(@PathVariable(required = true) UUID id) throws Exception {
         return socialActionRepository.getSocialActionByID(id);
     }
 
+    @PreAuthorize("hasAuthority('CREATE_SOCIAL_ACTION')")
     @PostMapping
-    public ResponseEntity createSocialAction(@RequestBody CreateSocialActionDTO requestBody){
-        socialActionRepository.createSocialAction(requestBody);
-        return ResponseEntity.noContent().build();
+    public Map createSocialAction(@RequestBody Map requestBody) throws Exception {
+       var response =  socialActionRepository.createSocialAction(requestBody);
+       return response;
     }
 
+
+    @PreAuthorize("hasAuthority('UPDATE_SOCIAL_ACTION')")
     @PutMapping
-    public ResponseEntity updateSocialAction(
+    public Map updateSocialAction(
             @PathVariable(required = true) UUID id,
-            @RequestBody UpdateSocialActionDTO requestBody){
-        socialActionRepository.updateSocialAction(requestBody, id);
-        return ResponseEntity.noContent().build();
+            @RequestBody UpdateSocialActionDTO requestBody) throws Exception {
+        var response = socialActionRepository.updateSocialAction(requestBody, id);
+        return response;
     }
 
+    @PreAuthorize("hasAuthority('DELETE_SOCIAL_ACTION')")
     @DeleteMapping("{id}")
-    public ResponseEntity deleteSocialAction(@PathVariable UUID id){
-        socialActionRepository.deleteSocialAction(id);
-        return ResponseEntity.noContent().build();
+    public Map deleteSocialAction(@PathVariable UUID id) throws Exception {
+        var response = socialActionRepository.deleteSocialAction(id);
+        return response;
     }
 
 

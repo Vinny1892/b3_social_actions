@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  social-action:
+    container_name: social-action
+    build:
+      context: .
+      dockerfile: docker/development/Dockerfile
+    volumes:
+      -  .:/app
+    ports:
+      - 32675:8085
+    networks:
+      b3-social-actions:
+        ipv4_address: 10.0.20.21
+
+networks:
+  b3-social-actions:
+    external: true

@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 public record CreateSocialActionDTO(
-        Optional<UUID> ong_uuid,
+        Optional<UUID> ong,
         Optional<UUID> id,
         String name
 

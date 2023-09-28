@@ -6,6 +6,8 @@ import com.b3.social_action.dto.social_action.DeleteSocialActionDTO;
 import com.b3.social_action.dto.social_action.UpdateSocialActionDTO;
 import com.b3.social_action.entity.SocialAction;
 import com.b3.social_action.service.SocialActionService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
@@ -18,11 +20,14 @@ import java.util.UUID;
 @RequestMapping("/social-action")
 public class SocialActionController {
 
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @Autowired
     public SocialActionService socialActionService;
 
     @GetMapping("{id}")
-    public ResponseEntity getSocialAction(@PathVariable(value = "id") UUID socialActionID){
+    public ResponseEntity getSocialAction(
+            @PathVariable(value = "id") UUID socialActionID){
         var socialAction = socialActionService.getSocialActionBy(socialActionID);
         if(socialAction.isPresent()){
             return ResponseEntity.notFound().build();
@@ -31,7 +36,11 @@ public class SocialActionController {
     }
 
     @GetMapping()
-    public Page<SocialAction> getAllSocialAction(@RequestParam("page") int page, @RequestParam("size") int size){
+    public Page<SocialAction> getAllSocialAction(
+            @RequestHeader("Authorization") String token,
+            @RequestHeader("userID") String userID,
+            @RequestHeader("email") String email,
+            @RequestParam("page") int page, @RequestParam("size") int size){
         return socialActionService.listSocialActions(page,size);
     }
 

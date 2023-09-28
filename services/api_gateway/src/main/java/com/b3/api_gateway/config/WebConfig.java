@@ -12,6 +12,6 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(new CorrelationIDInterceptor());
-        registry.addInterceptor(new LogRequestInterceptor());
+//        registry.addInterceptor(new LogRequestInterceptor());
     }
 }

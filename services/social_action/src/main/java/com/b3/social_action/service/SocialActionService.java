@@ -39,7 +39,7 @@ public class SocialActionService {
 
     public CreateSocialActionDTO createSocialAction(CreateSocialActionDTO socialActionDTO){
         var socialActionEntity = socialActionDTO.toEntity();
-        var ongID = socialActionDTO.ong_uuid().get();
+        var ongID = socialActionDTO.ong().get();
         var isOngExist = ongRepository.findById(ongID);
         if(isOngExist.isEmpty()){
             throw  new UnprocessableEntityException("erro ao inserir");

@@ -1651,6 +1651,7 @@ a83e9c3b-8e0c-4a67-b5fb-a5c47ff93f2a	t	f	account	0	t	\N	/realms/b3_social/accoun
 c65288d4-879f-40b7-a4f3-d46b7f61163d	t	f	broker	0	f	\N	\N	t	\N	f	c17fc45e-3905-44c8-b28e-8ee1efd0c910	openid-connect	0	f	f	${client_broker}	f	client-secret	\N	\N	\N	t	f	f	f
 39dc6190-8591-442b-ad84-94882ffbbf34	t	f	security-admin-console	0	t	\N	/admin/b3_social/console/	f	\N	f	c17fc45e-3905-44c8-b28e-8ee1efd0c910	openid-connect	0	f	f	${client_security-admin-console}	f	client-secret	${authAdminUrl}	\N	\N	t	f	f	f
 1d561b35-f3aa-4e68-9f75-469ca082589c	t	f	admin-cli	0	t	\N	\N	f	\N	f	c17fc45e-3905-44c8-b28e-8ee1efd0c910	openid-connect	0	f	f	${client_admin-cli}	f	client-secret	\N	\N	\N	f	f	t	f
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	t	t	frontend_b3_social_action	0	t	\N	http://localhost:3000/	f	http://localhost:3000/	f	c17fc45e-3905-44c8-b28e-8ee1efd0c910	openid-connect	-1	t	f	frontend_b3_social_action	f	client-secret	http://localhost:3000/		\N	t	f	t	f
 \.
 
 
@@ -1669,6 +1670,12 @@ a83e9c3b-8e0c-4a67-b5fb-a5c47ff93f2a	post.logout.redirect.uris	+
 2c734bda-b684-4c63-becb-d9c862a36bfb	pkce.code.challenge.method	S256
 39dc6190-8591-442b-ad84-94882ffbbf34	post.logout.redirect.uris	+
 39dc6190-8591-442b-ad84-94882ffbbf34	pkce.code.challenge.method	S256
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	oauth2.device.authorization.grant.enabled	false
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	oidc.ciba.grant.enabled	false
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	post.logout.redirect.uris	http://localhost:3000/*
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	backchannel.logout.session.required	true
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	backchannel.logout.revoke.offline.tokens	false
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	display.on.consent.screen	false
 \.
 
 
@@ -1897,6 +1904,15 @@ e5f5434d-2580-4410-9492-120e2a618e7a	7ddf47d7-ba36-4f1f-b972-70999ceb66a8	f
 39dc6190-8591-442b-ad84-94882ffbbf34	3d8869f0-c392-442b-9538-3da055b888d6	f
 39dc6190-8591-442b-ad84-94882ffbbf34	f1b7acd9-1d20-4f9f-a91b-f4a514d3df03	f
 39dc6190-8591-442b-ad84-94882ffbbf34	7ddf47d7-ba36-4f1f-b972-70999ceb66a8	f
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	33cea8d0-b96b-4546-9703-41835e684bee	t
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	162c8fc8-a01b-470d-97ad-c37d33b0db02	t
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	96e62781-d8d4-4b6d-9c85-9ecdb283bf9e	t
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	ffc69274-6a58-46e9-89ca-dc90c48571ae	t
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	7fa7e989-2079-40f9-bc88-cc47d25ae231	t
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	d1ec51c5-66b9-41a2-a829-082f1072d896	f
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	3d8869f0-c392-442b-9538-3da055b888d6	f
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	f1b7acd9-1d20-4f9f-a91b-f4a514d3df03	f
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	7ddf47d7-ba36-4f1f-b972-70999ceb66a8	f
 \.
 
 
@@ -2162,6 +2178,7 @@ fbfa750c-7647-4280-a345-71b47a95830b	13978d0a-eca5-4ebe-ac33-53c2e9d0602c
 
 COPY public.credential (id, salt, type, user_id, created_date, user_label, secret_data, credential_data, priority) FROM stdin;
 e06e9e78-456e-4d5d-8063-0df79efa64c1	\N	password	1f96089b-9c8a-4efa-aab9-84f1db2c61bf	1695072054863	\N	{"value":"4pNxYS5rQ2a6BFGy4B6D7ezoiU9w45EDo7YaAcaRucU=","salt":"7nLNnuS+1kZd4NMXAjxBGQ==","additionalParameters":{}}	{"hashIterations":27500,"algorithm":"pbkdf2-sha256","additionalParameters":{}}	10
+170138db-eae9-48ad-943f-b11d1523a61e	\N	password	8cc67c1e-0ca1-43bd-b7ef-fa01d4360963	1695847023382	My password	{"value":"hwEnvzqkjRjtGYvq+HxKXfFoQQU3ipI69IdWInaZD94=","salt":"UWqTcal6/sWnx6O/WLhm0g==","additionalParameters":{}}	{"hashIterations":27500,"algorithm":"pbkdf2-sha256","additionalParameters":{}}	10
 \.
 
 
@@ -2548,6 +2565,7 @@ a0db6382-1486-4374-862f-bbb2ce5f2e2b	a83e9c3b-8e0c-4a67-b5fb-a5c47ff93f2a	t	${ro
 e2ed5fcf-139f-4a34-a7de-a0e27b5d3c1c	c65288d4-879f-40b7-a4f3-d46b7f61163d	t	${role_read-token}	read-token	c17fc45e-3905-44c8-b28e-8ee1efd0c910	c65288d4-879f-40b7-a4f3-d46b7f61163d	\N
 7778ca2e-c2ed-45f3-a384-4de6842be5b0	c17fc45e-3905-44c8-b28e-8ee1efd0c910	f	${role_offline-access}	offline_access	c17fc45e-3905-44c8-b28e-8ee1efd0c910	\N	\N
 3129c719-ffff-4525-8f08-46ba5ebca12d	c17fc45e-3905-44c8-b28e-8ee1efd0c910	f	${role_uma_authorization}	uma_authorization	c17fc45e-3905-44c8-b28e-8ee1efd0c910	\N	\N
+322ee2c3-eb0b-4693-95a5-697b4484d7eb	c17fc45e-3905-44c8-b28e-8ee1efd0c910	f		CREATE_SOCIAL_ACTION	c17fc45e-3905-44c8-b28e-8ee1efd0c910	\N	\N
 \.
 
 
@@ -2958,7 +2976,7 @@ eb40a6bd-ce70-41e5-b968-0deed7de455b	String	jsonType.label
 
 COPY public.realm (id, access_code_lifespan, user_action_lifespan, access_token_lifespan, account_theme, admin_theme, email_theme, enabled, events_enabled, events_expiration, login_theme, name, not_before, password_policy, registration_allowed, remember_me, reset_password_allowed, social, ssl_required, sso_idle_timeout, sso_max_lifespan, update_profile_on_soc_login, verify_email, master_admin_client, login_lifespan, internationalization_enabled, default_locale, reg_email_as_username, admin_events_enabled, admin_events_details_enabled, edit_username_allowed, otp_policy_counter, otp_policy_window, otp_policy_period, otp_policy_digits, otp_policy_alg, otp_policy_type, browser_flow, registration_flow, direct_grant_flow, reset_credentials_flow, client_auth_flow, offline_session_idle_timeout, revoke_refresh_token, access_token_life_implicit, login_with_email_allowed, duplicate_emails_allowed, docker_auth_flow, refresh_token_max_reuse, allow_user_managed_access, sso_max_lifespan_remember_me, sso_idle_timeout_remember_me, default_role) FROM stdin;
 33b59376-8366-4d43-a008-09a699620c97	60	300	60	\N	\N	\N	t	f	0	\N	master	0	\N	f	f	f	f	EXTERNAL	1800	36000	f	f	cff74c4b-1854-433b-b119-9374fd36bb06	1800	f	\N	f	f	f	f	0	1	30	6	HmacSHA1	totp	659777c4-82cb-4878-be28-fb0491bba93b	9bfe34ac-50df-4270-8ed3-a0ae515180eb	8726cd1f-425f-418a-a0f7-8e49f348f56d	86c5f6f9-5fc5-407e-b8c1-8dc5e0e771bd	31ad81ae-d119-4f7b-b7a4-1145880284b6	2592000	f	900	t	f	d601f4d9-4508-41e8-ac39-ef4eca1422ea	0	f	0	0	4cdb3271-40fa-4ade-9a96-8fc23dee94a0
-c17fc45e-3905-44c8-b28e-8ee1efd0c910	60	300	300	\N	\N	\N	t	f	0	\N	b3_social	0	\N	f	f	f	f	EXTERNAL	1800	36000	f	f	c2dbac8e-0fb4-465b-b60b-c50f1d350a49	1800	f	\N	f	f	f	f	0	1	30	6	HmacSHA1	totp	ad0a5703-5c3f-4c8a-a46b-cfc7e8b9ca0f	f48ef93c-d7e6-4e34-b056-a499da242bb8	ba76f0bc-b114-4128-8d4b-af5b5a3664bc	2fda754d-45bf-41ea-a1bb-2b57c65dffd9	740c7149-abdf-4ea8-a19a-fd2a3e440af1	2592000	f	900	t	f	8e5fcb9b-71f4-4f53-ae66-ebbd0d2eb888	0	f	0	0	2b65f79c-3fc9-4bb6-a320-464e08df72eb
+c17fc45e-3905-44c8-b28e-8ee1efd0c910	60	300	300	\N	\N	\N	t	f	0	\N	b3_social	0	\N	t	t	t	f	EXTERNAL	1800	36000	f	f	c2dbac8e-0fb4-465b-b60b-c50f1d350a49	1800	f	\N	t	f	f	f	0	1	30	6	HmacSHA1	totp	ad0a5703-5c3f-4c8a-a46b-cfc7e8b9ca0f	f48ef93c-d7e6-4e34-b056-a499da242bb8	ba76f0bc-b114-4128-8d4b-af5b5a3664bc	2fda754d-45bf-41ea-a1bb-2b57c65dffd9	740c7149-abdf-4ea8-a19a-fd2a3e440af1	2592000	f	900	t	f	8e5fcb9b-71f4-4f53-ae66-ebbd0d2eb888	0	f	0	0	2b65f79c-3fc9-4bb6-a320-464e08df72eb
 \.
 
 
@@ -2989,14 +3007,18 @@ displayNameHtml	33b59376-8366-4d43-a008-09a699620c97	<div class="kc-logo-text"><
 defaultSignatureAlgorithm	33b59376-8366-4d43-a008-09a699620c97	RS256
 offlineSessionMaxLifespanEnabled	33b59376-8366-4d43-a008-09a699620c97	false
 offlineSessionMaxLifespan	33b59376-8366-4d43-a008-09a699620c97	5184000
-_browser_header.contentSecurityPolicyReportOnly	c17fc45e-3905-44c8-b28e-8ee1efd0c910	
-_browser_header.xContentTypeOptions	c17fc45e-3905-44c8-b28e-8ee1efd0c910	nosniff
-_browser_header.referrerPolicy	c17fc45e-3905-44c8-b28e-8ee1efd0c910	no-referrer
-_browser_header.xRobotsTag	c17fc45e-3905-44c8-b28e-8ee1efd0c910	none
-_browser_header.xFrameOptions	c17fc45e-3905-44c8-b28e-8ee1efd0c910	SAMEORIGIN
-_browser_header.contentSecurityPolicy	c17fc45e-3905-44c8-b28e-8ee1efd0c910	frame-src 'self'; frame-ancestors 'self'; object-src 'none';
-_browser_header.xXSSProtection	c17fc45e-3905-44c8-b28e-8ee1efd0c910	1; mode=block
-_browser_header.strictTransportSecurity	c17fc45e-3905-44c8-b28e-8ee1efd0c910	max-age=31536000; includeSubDomains
+realmReusableOtpCode	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
+oauth2DeviceCodeLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	600
+oauth2DevicePollingInterval	c17fc45e-3905-44c8-b28e-8ee1efd0c910	5
+cibaBackchannelTokenDeliveryMode	c17fc45e-3905-44c8-b28e-8ee1efd0c910	poll
+cibaExpiresIn	c17fc45e-3905-44c8-b28e-8ee1efd0c910	120
+cibaInterval	c17fc45e-3905-44c8-b28e-8ee1efd0c910	5
+cibaAuthRequestedUserHint	c17fc45e-3905-44c8-b28e-8ee1efd0c910	login_hint
+parRequestUriLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	60
+clientSessionIdleTimeout	c17fc45e-3905-44c8-b28e-8ee1efd0c910	0
+clientSessionMaxLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	0
+clientOfflineSessionIdleTimeout	c17fc45e-3905-44c8-b28e-8ee1efd0c910	0
+clientOfflineSessionMaxLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	0
 bruteForceProtected	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
 permanentLockout	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
 maxFailureWaitSeconds	c17fc45e-3905-44c8-b28e-8ee1efd0c910	900
@@ -3005,14 +3027,11 @@ waitIncrementSeconds	c17fc45e-3905-44c8-b28e-8ee1efd0c910	60
 quickLoginCheckMilliSeconds	c17fc45e-3905-44c8-b28e-8ee1efd0c910	1000
 maxDeltaTimeSeconds	c17fc45e-3905-44c8-b28e-8ee1efd0c910	43200
 failureFactor	c17fc45e-3905-44c8-b28e-8ee1efd0c910	30
-realmReusableOtpCode	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
+actionTokenGeneratedByAdminLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	43200
+actionTokenGeneratedByUserLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	300
 defaultSignatureAlgorithm	c17fc45e-3905-44c8-b28e-8ee1efd0c910	RS256
 offlineSessionMaxLifespanEnabled	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
 offlineSessionMaxLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	5184000
-actionTokenGeneratedByAdminLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	43200
-actionTokenGeneratedByUserLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	300
-oauth2DeviceCodeLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	600
-oauth2DevicePollingInterval	c17fc45e-3905-44c8-b28e-8ee1efd0c910	5
 webAuthnPolicyRpEntityName	c17fc45e-3905-44c8-b28e-8ee1efd0c910	keycloak
 webAuthnPolicySignatureAlgorithms	c17fc45e-3905-44c8-b28e-8ee1efd0c910	ES256
 webAuthnPolicyRpId	c17fc45e-3905-44c8-b28e-8ee1efd0c910	
@@ -3031,11 +3050,16 @@ webAuthnPolicyRequireResidentKeyPasswordless	c17fc45e-3905-44c8-b28e-8ee1efd0c91
 webAuthnPolicyUserVerificationRequirementPasswordless	c17fc45e-3905-44c8-b28e-8ee1efd0c910	not specified
 webAuthnPolicyCreateTimeoutPasswordless	c17fc45e-3905-44c8-b28e-8ee1efd0c910	0
 webAuthnPolicyAvoidSameAuthenticatorRegisterPasswordless	c17fc45e-3905-44c8-b28e-8ee1efd0c910	false
-cibaBackchannelTokenDeliveryMode	c17fc45e-3905-44c8-b28e-8ee1efd0c910	poll
-cibaExpiresIn	c17fc45e-3905-44c8-b28e-8ee1efd0c910	120
-cibaInterval	c17fc45e-3905-44c8-b28e-8ee1efd0c910	5
-cibaAuthRequestedUserHint	c17fc45e-3905-44c8-b28e-8ee1efd0c910	login_hint
-parRequestUriLifespan	c17fc45e-3905-44c8-b28e-8ee1efd0c910	60
+client-policies.profiles	c17fc45e-3905-44c8-b28e-8ee1efd0c910	{"profiles":[]}
+client-policies.policies	c17fc45e-3905-44c8-b28e-8ee1efd0c910	{"policies":[]}
+_browser_header.contentSecurityPolicyReportOnly	c17fc45e-3905-44c8-b28e-8ee1efd0c910	
+_browser_header.xContentTypeOptions	c17fc45e-3905-44c8-b28e-8ee1efd0c910	nosniff
+_browser_header.referrerPolicy	c17fc45e-3905-44c8-b28e-8ee1efd0c910	no-referrer
+_browser_header.xRobotsTag	c17fc45e-3905-44c8-b28e-8ee1efd0c910	none
+_browser_header.xFrameOptions	c17fc45e-3905-44c8-b28e-8ee1efd0c910	SAMEORIGIN
+_browser_header.contentSecurityPolicy	c17fc45e-3905-44c8-b28e-8ee1efd0c910	frame-src 'self'; frame-ancestors 'self'; object-src 'none';
+_browser_header.xXSSProtection	c17fc45e-3905-44c8-b28e-8ee1efd0c910	1; mode=block
+_browser_header.strictTransportSecurity	c17fc45e-3905-44c8-b28e-8ee1efd0c910	max-age=31536000; includeSubDomains
 \.
 
 
@@ -3110,6 +3134,7 @@ be31244a-8352-4068-a494-0611b28f8a6d	/realms/master/account/*
 a83e9c3b-8e0c-4a67-b5fb-a5c47ff93f2a	/realms/b3_social/account/*
 2c734bda-b684-4c63-becb-d9c862a36bfb	/realms/b3_social/account/*
 39dc6190-8591-442b-ad84-94882ffbbf34	/admin/b3_social/console/*
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	http://localhost:3000/*
 \.
 
 
@@ -3277,6 +3302,7 @@ COPY public.user_consent_client_scope (user_consent_id, scope_id) FROM stdin;
 
 COPY public.user_entity (id, email, email_constraint, email_verified, enabled, federation_link, first_name, last_name, realm_id, username, created_timestamp, service_account_client_link, not_before) FROM stdin;
 1f96089b-9c8a-4efa-aab9-84f1db2c61bf	\N	611d6bc3-0a4f-45c4-9049-f0b5c8edd7df	f	t	\N	\N	\N	33b59376-8366-4d43-a008-09a699620c97	admin	1695072054753	\N	0
+8cc67c1e-0ca1-43bd-b7ef-fa01d4360963	user1@user1.com	user1@user1.com	t	t	\N	first name	last name	c17fc45e-3905-44c8-b28e-8ee1efd0c910	user1@user1.com	1695846944032	\N	0
 \.
 
 
@@ -3352,6 +3378,8 @@ f7572420-3328-4489-8c62-9832d4ce798f	1f96089b-9c8a-4efa-aab9-84f1db2c61bf
 a0137cc9-4b0c-4041-a28e-43bc4fcc69ca	1f96089b-9c8a-4efa-aab9-84f1db2c61bf
 4d7f1eb0-627e-41f2-9f72-842f925fc13b	1f96089b-9c8a-4efa-aab9-84f1db2c61bf
 73a6849b-46a8-4355-ba9a-e2570f1a6f34	1f96089b-9c8a-4efa-aab9-84f1db2c61bf
+2b65f79c-3fc9-4bb6-a320-464e08df72eb	8cc67c1e-0ca1-43bd-b7ef-fa01d4360963
+322ee2c3-eb0b-4693-95a5-697b4484d7eb	8cc67c1e-0ca1-43bd-b7ef-fa01d4360963
 \.
 
 
@@ -3386,6 +3414,7 @@ COPY public.username_login_failure (realm_id, username, failed_login_not_before,
 COPY public.web_origins (client_id, value) FROM stdin;
 7ed4df18-db1c-4d6e-88c4-1def9a22f6c6	+
 39dc6190-8591-442b-ad84-94882ffbbf34	+
+6e23ce6a-8e2e-49bc-bf65-c5464c3624fd	http://localhost:3000
 \.
 
 
