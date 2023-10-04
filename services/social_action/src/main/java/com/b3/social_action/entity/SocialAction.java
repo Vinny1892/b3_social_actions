@@ -17,6 +17,10 @@ import java.util.UUID;
 @Table(name = "social_action", schema = "public")
 public class SocialAction {
 
+    @ManyToOne // Muitas ações sociais podem pertencer a uma categoria
+    @JoinColumn(name = "categoria_id") // Nome da coluna que armazena a chave estrangeira
+    private Categoria categoria;
+    
     public SocialAction(String name){
         this.name = name;
     }

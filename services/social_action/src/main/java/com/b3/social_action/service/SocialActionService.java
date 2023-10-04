@@ -86,4 +86,11 @@ public class SocialActionService {
         return LocalDateTime.parse(dateString, formatter);
     }
 
+    public Page<SocialAction> listSocialActionsByCategory(Long categoriaId, int page, int size) {
+        return null;
+    }
+
+    
+
 }
+
