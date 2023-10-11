@@ -7,6 +7,7 @@ import com.b3.social_action.entity.SocialAction;
 import com.b3.social_action.exceptions.UnprocessableEntityException;
 import com.b3.social_action.repository.OngRepository;
 import com.b3.social_action.repository.SocialActionRepository;
+import com.b3.social_action.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -25,12 +26,16 @@ public class SocialActionService {
     public SocialActionRepository socialActionRepository;
 
     @Autowired
+    public TaskRepository taskRepository;
+
+    @Autowired
     public OngRepository ongRepository;
     
     
     public Page<SocialAction> listSocialActions(int page, int size){
         Pageable pageable = PageRequest.of(page, size);
-        return socialActionRepository.findAll(pageable);
+        var response = socialActionRepository.findAll(pageable);
+        return response;
     }
 
     public Optional<SocialAction> getSocialActionBy(UUID id){
@@ -39,16 +44,18 @@ public class SocialActionService {
 
     public CreateSocialActionDTO createSocialAction(CreateSocialActionDTO socialActionDTO){
         var socialActionEntity = socialActionDTO.toEntity();
-        var ongID = socialActionDTO.ong().get();
-        var isOngExist = ongRepository.findById(ongID);
-        if(isOngExist.isEmpty()){
-            throw  new UnprocessableEntityException("erro ao inserir");
+        var ongID = socialActionDTO.ongID();
+        if(ongID.isPresent()){
+            var isOngExist = ongRepository.findById(ongID.get());
+            if(isOngExist.isPresent()){
+                socialActionEntity.setOng(isOngExist.get());
+            }
         }
-        socialActionEntity.setOng(isOngExist.get());
+
         var socialActionSave = socialActionRepository.save(socialActionEntity);
         return  new CreateSocialActionDTO(
                 Optional.of(socialActionSave.getId()),
-                Optional.of(ongID),
+                ongID,
                 socialActionSave.getName()
         );
     }
@@ -73,6 +80,9 @@ public class SocialActionService {
             return Optional.empty();
         }
         var socialActionDatabase =  socialActionDatabaseOptional.get();
+        socialActionDatabase.getTasks().stream().forEach(task -> {
+            taskRepository.delete(task);
+        });
         socialActionRepository.deleteById(id);
         return Optional.of(new DeleteSocialActionDTO(
                 socialActionDatabase.getId(),

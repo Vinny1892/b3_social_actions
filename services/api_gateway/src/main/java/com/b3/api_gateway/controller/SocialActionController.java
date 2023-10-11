@@ -25,6 +25,7 @@ public class SocialActionController {
     @Autowired
     SocialActionRepository socialActionRepository;
 
+
     @GetMapping
     public Map getSocialActions(
             @RequestParam(defaultValue = "10") int size,
@@ -49,10 +50,10 @@ public class SocialActionController {
 
 
     @PreAuthorize("hasAuthority('UPDATE_SOCIAL_ACTION')")
-    @PutMapping
+    @PutMapping("{id}")
     public Map updateSocialAction(
             @PathVariable(required = true) UUID id,
-            @RequestBody UpdateSocialActionDTO requestBody) throws Exception {
+            @RequestBody Map requestBody) throws Exception {
         var response = socialActionRepository.updateSocialAction(requestBody, id);
         return response;
     }

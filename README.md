@@ -66,9 +66,9 @@ Quando rodar essa configuração toda vez que o projeto for construido(build), s
 
 | Serviço | Porta | Tipo |
 | ---| ---|---|
-| api gateway | 8086 | microserviço |
-| social action| 8086 | microserviço |
-| contract | 8086 | microserviço |
+| api gateway | 32256 | microserviço |
+| social action| 32520 | microserviço |
+| contract | 32521 | microserviço |
 | invoice | 8086 | microserviço |
 | keycloak | 8084 | auxiliar |
 | postgres | 5432 | auxiliar |

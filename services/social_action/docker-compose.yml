@@ -9,7 +9,7 @@ services:
     volumes:
       -  .:/app
     ports:
-      - 32675:8085
+      - 32525:32525
     networks:
       b3-social-actions:
         ipv4_address: 10.0.20.21

@@ -13,6 +13,8 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
@@ -20,6 +22,8 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Map;
 import java.util.Optional;
 
+
+@Component
 public class Request implements  RequestContract {
 
     private RestTemplate restTemplate;
@@ -67,6 +71,7 @@ public class Request implements  RequestContract {
                 throw new ServerException("Erro no servidor");
             }
         } catch (HttpServerErrorException e) {
+            logger.error(e.getMessage());
             logger.error("resposta do servidor não está em nenhum filtro de tratamento do gateway", e.getMessage());
             throw new ServerException("Erro no servidor");
         } catch (Exception e) {

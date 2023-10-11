@@ -36,11 +36,7 @@ public class SocialActionController {
     }
 
     @GetMapping()
-    public Page<SocialAction> getAllSocialAction(
-            @RequestHeader("Authorization") String token,
-            @RequestHeader("userID") String userID,
-            @RequestHeader("email") String email,
-            @RequestParam("page") int page, @RequestParam("size") int size){
+    public Page<SocialAction> getAllSocialAction(@RequestParam("page") int page, @RequestParam("size") int size){
         return socialActionService.listSocialActions(page,size);
     }
 
