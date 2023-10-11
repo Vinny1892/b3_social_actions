@@ -18,6 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/social-action")
+
 public class SocialActionController {
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -63,6 +64,14 @@ public class SocialActionController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(socialActionDeletedOptional.get());
+    }
+
+    @GetMapping("/by-category/{categoriaId}")
+    public Page<SocialAction> getSocialActionsByCategory(
+            @PathVariable Long categoriaId,
+            @RequestParam("page") int page,
+            @RequestParam("size") int size) {
+        return socialActionService.listSocialActionsByCategory(categoriaId, page, size);
     }
 
 }
