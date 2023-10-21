@@ -3,9 +3,8 @@ package com.b3.social_action.controller;
 import com.b3.social_action.entity.Ong;
 import com.b3.social_action.repository.OngRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
@@ -22,5 +21,12 @@ public class OngController {
         ong.setId(UUID.randomUUID());
         ong.setName("teste");
         ongRepository.save(ong);
+    }
+
+    @GetMapping("{search}")
+    public ResponseEntity search(
+            @PathVariable(value = "search") String search){
+        var ong = ongRepository.findOngByNameContainsIgnoreCase(search);
+        return ResponseEntity.ok().body(ong);
     }
 }

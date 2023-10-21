@@ -1,4 +1,4 @@
-CREATE TABLE subscription
+CREATE TABLE IF NOT EXISTS subscription
 (
     id uuid primary key not null,
     task_id uuid not null,

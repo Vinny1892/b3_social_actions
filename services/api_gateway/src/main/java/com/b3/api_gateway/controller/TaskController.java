@@ -18,6 +18,13 @@ public class TaskController {
     @Autowired
     TaskRepository taskRepository;
 
+    @GetMapping("/search/{search}")
+    public Map search(
+            @PathVariable(value = "search") String search) throws Exception {
+        var response = taskRepository.search(search);
+        return response;
+    }
+
     @PostMapping
     public Map createTask(@RequestBody Map dto) throws Exception {
         var response = taskRepository.createTask(dto);
@@ -32,6 +39,13 @@ public class TaskController {
         logger.info("task updated");
 
         return response;
+    }
+
+    @GetMapping("{id}")
+    public Map get(
+            @PathVariable(required = true) UUID id
+    ) throws Exception {
+        return taskRepository.getTaskByID(id);
     }
 
     @DeleteMapping("{id}")

@@ -1,8 +1,5 @@
 import Keycloak from 'keycloak-js';
 
-const hasKeycloakInit = false;
-const keycloakInstance = null;
-
 const initOptions = {
   url: 'http://localhost:8084',
   clientId: 'frontend_b3_social_action',

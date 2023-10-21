@@ -1,4 +1,4 @@
-CREATE TABLE presence
+CREATE TABLE IF NOT EXISTS presence
 (
     id uuid primary key not null,
     task_id uuid not null,

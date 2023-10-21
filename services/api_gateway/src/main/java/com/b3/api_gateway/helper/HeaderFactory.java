@@ -1,4 +1,4 @@
-package com.b3.api_gateway.helpers;
+package com.b3.api_gateway.helper;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.core.context.SecurityContextHolder;

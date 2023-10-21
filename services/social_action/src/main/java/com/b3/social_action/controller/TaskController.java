@@ -25,6 +25,23 @@ public class TaskController {
         return ResponseEntity.created(uri).body(response);
     }
 
+    @GetMapping("/search/{search}")
+    public ResponseEntity search(
+            @PathVariable(value = "search") String search){
+        var task = taskService.search(search);
+        return ResponseEntity.ok().body(task);
+    }
+
+    @GetMapping("{id}")
+    public ResponseEntity getTask(
+            @PathVariable(value = "id") UUID taskID){
+        var task = taskService.getTaskByID(taskID);
+        if(task.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok().body(task);
+    }
+
     @PutMapping("{id}")
     public ResponseEntity<UpdateTaskDTO> updateTaskDTO(
             @PathVariable("id") UUID id,

@@ -72,6 +72,7 @@ public class Request implements  RequestContract {
             }
         } catch (HttpServerErrorException e) {
             logger.error(e.getMessage());
+            e.printStackTrace();
             logger.error("resposta do servidor não está em nenhum filtro de tratamento do gateway", e.getMessage());
             throw new ServerException("Erro no servidor");
         } catch (Exception e) {

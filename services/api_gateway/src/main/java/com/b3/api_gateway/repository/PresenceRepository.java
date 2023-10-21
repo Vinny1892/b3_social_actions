@@ -1,15 +1,11 @@
 package com.b3.api_gateway.repository;
 
-import com.b3.api_gateway.helper.Request;
 import com.b3.api_gateway.helper.RequestContract;
-import com.b3.api_gateway.helpers.HeaderFactory;
+import com.b3.api_gateway.helper.HeaderFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpHeaders;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 import org.springframework.stereotype.Repository;
 
 import java.util.LinkedHashMap;
