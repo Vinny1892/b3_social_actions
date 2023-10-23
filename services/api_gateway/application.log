@@ -36623,4 +36623,821 @@ This generated password is for development use only. Your security configuration
   "logger" : "com.b3.api_gateway.controller.SocialActionController",
   "message" : "get paginate social actions",
   "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.066-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication using Java 17.0.8 with PID 33520 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\api_gateway\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\api_gateway)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.081-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.109-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.110-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.916-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32256 (http)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.921-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32256\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.923-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.923-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.965-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.966-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 856 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:27.995-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfiguration",
+  "message" : "Listening for remote restart updates on /.~~spring-boot!~/restart",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.317-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21256815, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e52fde0, org.springframework.security.web.context.SecurityContextHolderFilter@3fe0deae, org.springframework.security.web.header.HeaderWriterFilter@753f67f5, org.springframework.security.web.authentication.logout.LogoutFilter@7de2637b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@6c2d5734, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ef6ed7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71f23ecd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28408be9, org.springframework.security.web.session.SessionManagementFilter@1656c02e, org.springframework.security.web.access.ExceptionTranslationFilter@73d325a, org.springframework.security.web.access.intercept.AuthorizationFilter@39a20354]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.328-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure Ant [pattern='/.~~spring-boot!~/restart'] with [org.springframework.security.web.session.DisableEncodeUrlFilter@130b9eb1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c4a1411, org.springframework.security.web.context.SecurityContextHolderFilter@3b54abd8, org.springframework.security.web.header.HeaderWriterFilter@43eff33a, org.springframework.security.web.authentication.logout.LogoutFilter@751b5ea7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d80a869, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57c57d94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42f8d40e, org.springframework.security.web.access.ExceptionTranslationFilter@41436b96, org.springframework.security.web.access.intercept.AuthorizationFilter@185986e]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.661-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "Unable to start LiveReload server",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.680-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.691-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32256\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.704-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32256 (http) with context path ''",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:25:28.712-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "Started ApiGatewayApplication in 2.035 seconds (process running for 2.504)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:30:24.739-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:30:24.740-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:30:24.741-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:33:03.632-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "d55da6bc-cd13-416d-a584-f8163549a66c"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:33:03.623+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null\\r\\n\\tat org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:371)\\r\\n\\tat org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:234)\\r\\n\\tat org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)\\r\\n\\tat org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)\\r\\n\\tat org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\\r\\n\\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\nCaused by: java.lang.IllegalArgumentException: The given id must not be null\\r\\n\\tat org.springframework.util.Assert.notNull(Assert.java:204)\\r\\n\\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\\r\\n\\t... 59 more\\r\\n\",\"message\":\"The given id must not be null\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:33:03.636-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "d55da6bc-cd13-416d-a584-f8163549a66c"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:33:03.642-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "d55da6bc-cd13-416d-a584-f8163549a66c"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:42:12.958-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "88e19ae9-3cd6-4b2a-ac00-5f7523754818"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:42:12.951+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null\\r\\n\\tat org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:371)\\r\\n\\tat org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:234)\\r\\n\\tat org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)\\r\\n\\tat org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)\\r\\n\\tat org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\\r\\n\\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\nCaused by: java.lang.IllegalArgumentException: The given id must not be null\\r\\n\\tat org.springframework.util.Assert.notNull(Assert.java:204)\\r\\n\\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\\r\\n\\t... 59 more\\r\\n\",\"message\":\"The given id must not be null\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:42:12.960-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "88e19ae9-3cd6-4b2a-ac00-5f7523754818"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:42:12.960-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "88e19ae9-3cd6-4b2a-ac00-5f7523754818"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:43:18.775-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "61165b28-8885-4f45-b1c0-c521b5dd433b"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:43:18.757+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null\\r\\n\\tat org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:371)\\r\\n\\tat org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:234)\\r\\n\\tat org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)\\r\\n\\tat org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)\\r\\n\\tat org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\\r\\n\\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\nCaused by: java.lang.IllegalArgumentException: The given id must not be null\\r\\n\\tat org.springframework.util.Assert.notNull(Assert.java:204)\\r\\n\\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\\r\\n\\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\\r\\n\\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\\r\\n\\t... 59 more\\r\\n\",\"message\":\"The given id must not be null\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:43:18.776-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "61165b28-8885-4f45-b1c0-c521b5dd433b"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:43:18.776-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "61165b28-8885-4f45-b1c0-c521b5dd433b"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.374-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "1ae2ca25-34a4-40ed-8b30-d86192e2a066"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "erro na aplicação antes de fazer a request",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.376-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "1ae2ca25-34a4-40ed-8b30-d86192e2a066"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.455-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "81e2ebf1-c3db-426a-884c-686cd52dc2cb"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "erro na aplicação antes de fazer a request",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.456-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "81e2ebf1-c3db-426a-884c-686cd52dc2cb"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.749-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "fe18651d-9f52-45a5-9bd8-8f3c0da36855"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "erro na aplicação antes de fazer a request",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.751-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "fe18651d-9f52-45a5-9bd8-8f3c0da36855"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.893-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-2",
+  "mdc" : {
+    "correlationId" : "bfa6efd2-46ae-449e-b500-e08917cc20fa"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "erro na aplicação antes de fazer a request",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.895-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-2",
+  "mdc" : {
+    "correlationId" : "bfa6efd2-46ae-449e-b500-e08917cc20fa"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.986-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "c0f18a53-d931-4a4e-9171-735c05b6f063"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "erro na aplicação antes de fazer a request",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:44:13.988-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "c0f18a53-d931-4a4e-9171-735c05b6f063"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:03.506-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "220e1f2a-7756-457f-b3e0-2d134775c69e"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:45:03.483+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"java.lang.NullPointerException: Cannot invoke \\\"java.lang.Integer.intValue()\\\" because \\\"this.quantityOfVacancy\\\" is null\\r\\n\\tat com.b3.social_action.dto.task.CreateTaskDTO.toEntity(CreateTaskDTO.java:34)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:37)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\n\",\"message\":\"Cannot invoke \\\"java.lang.Integer.intValue()\\\" because \\\"this.quantityOfVacancy\\\" is null\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:03.508-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "220e1f2a-7756-457f-b3e0-2d134775c69e"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:03.508-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "220e1f2a-7756-457f-b3e0-2d134775c69e"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:38.899-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "7a810529-bc41-4d59-af44-2f513af163e6"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:45:38.893+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"java.lang.NullPointerException: Cannot invoke \\\"java.lang.Integer.intValue()\\\" because \\\"this.quantityOfVacancy\\\" is null\\r\\n\\tat com.b3.social_action.dto.task.CreateTaskDTO.toEntity(CreateTaskDTO.java:34)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:37)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\n\",\"message\":\"Cannot invoke \\\"java.lang.Integer.intValue()\\\" because \\\"this.quantityOfVacancy\\\" is null\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:38.900-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "7a810529-bc41-4d59-af44-2f513af163e6"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:45:38.901-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "7a810529-bc41-4d59-af44-2f513af163e6"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:47:26.138-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "501272a3-367a-4662-a7e7-2597b25c3083"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "500 : \"{\"timestamp\":\"2023-10-23T18:47:26.131+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"trace\":\"org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: invalid input syntax for type date: \\\"17:30:00-04\\\"\\n  Onde: unnamed portal parameter $10 = '...'] [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]\\r\\n\\tat org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:272)\\r\\n\\tat org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:229)\\r\\n\\tat org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:565)\\r\\n\\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)\\r\\n\\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)\\r\\n\\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\\r\\n\\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\\r\\n\\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\\r\\n\\tat jdk.proxy4/jdk.proxy4.$Proxy134.save(Unknown Source)\\r\\n\\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:39)\\r\\n\\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\\r\\n\\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\\r\\n\\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\\r\\n\\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\\r\\n\\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\\r\\n\\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\\r\\n\\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\\r\\n\\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\\r\\n\\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\\r\\n\\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\\r\\n\\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\\r\\n\\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\\r\\n\\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\\r\\n\\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\\r\\n\\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\\r\\n\\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\\r\\n\\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\\r\\n\\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\\r\\n\\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\\r\\n\\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\\r\\n\\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\\r\\n\\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\\r\\n\\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\\r\\n\\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\\r\\n\\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\\r\\n\\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\\r\\n\\tat java.base/java.lang.Thread.run(Thread.java:833)\\r\\nCaused by: org.hibernate.exception.DataException: could not execute statement [ERROR: invalid input syntax for type date: \\\"17:30:00-04\\\"\\n  Onde: unnamed portal parameter $10 = '...'] [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]\\r\\n\\tat org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:101)\\r\\n\\tat org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)\\r\\n\\tat org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)\\r\\n\\tat org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:278)\\r\\n\\tat org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)\\r\\n\\tat org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)\\r\\n\\tat org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)\\r\\n\\tat org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:169)\\r\\n\\tat org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:111)\\r\\n\\tat org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2762)\\r\\n\\tat org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)\\r\\n\\tat org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)\\r\\n\\tat org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:502)\\r\\n\\tat org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)\\r\\n\\tat org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)\\r\\n\\tat org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)\\r\\n\\tat org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)\\r\\n\\tat org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)\\r\\n\\tat org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2301)\\r\\n\\tat org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1966)\\r\\n\\tat org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)\\r\\n\\tat org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)\\r\\n\\tat org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)\\r\\n\\tat org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)\\r\\n\\tat org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)\\r\\n\\t... 66 more\\r\\nCaused by: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: \\\"17:30:00-04\\\"\\n  Onde: unnamed portal parameter $10 = '...'\\r\\n\\tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)\\r\\n\\tat org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)\\r\\n\\tat org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)\\r\\n\\tat org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)\\r\\n\\tat org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)\\r\\n\\tat org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)\\r\\n\\tat org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)\\r\\n\\tat com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)\\r\\n\\tat com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)\\r\\n\\tat org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)\\r\\n\\t... 87 more\\r\\n\",\"message\":\"could not execute statement [ERROR: invalid input syntax for type date: \\\"17:30:00-04\\\"\\n  Onde: unnamed portal parameter $10 = '...'] [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]\",\"path\":\"/task\"}\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:47:26.139-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "501272a3-367a-4662-a7e7-2597b25c3083"
+  },
+  "logger" : "com.b3.api_gateway.helper.Request",
+  "message" : "resposta do servidor não está em nenhum filtro de tratamento do gateway",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:47:26.139-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "501272a3-367a-4662-a7e7-2597b25c3083"
+  },
+  "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
+  "message" : "Resolved [com.b3.api_gateway.exceptions.ServerException: Erro no servidor]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:53:06.191-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "cad67d79-c6e0-42ff-99cc-a326bcda9c58"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:53:06.191-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "cad67d79-c6e0-42ff-99cc-a326bcda9c58"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:55:15.769-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-5",
+  "mdc" : {
+    "correlationId" : "332fe71e-3186-44b7-af5d-72ff1b45880f"
+  },
+  "logger" : "com.b3.api_gateway.controller.TaskController",
+  "message" : "created task",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:55:21.948-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-8",
+  "mdc" : {
+    "correlationId" : "40b15774-091b-410c-894c-07cc5f398e1b"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:55:21.948-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-8",
+  "mdc" : {
+    "correlationId" : "40b15774-091b-410c-894c-07cc5f398e1b"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:24.301-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "6a3f08e7-756d-4ab6-91e0-6ab360a1dd73"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:24.301-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "6a3f08e7-756d-4ab6-91e0-6ab360a1dd73"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:35.061-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "68e73419-cb97-40fc-9777-605d0e98e085"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:35.061-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "68e73419-cb97-40fc-9777-605d0e98e085"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:44.781-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "3447592b-b530-4c42-91af-39f64c83a33d"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T14:59:44.781-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-7",
+  "mdc" : {
+    "correlationId" : "3447592b-b530-4c42-91af-39f64c83a33d"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:01.614-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "12ce8b96-8922-4e1a-82d5-f93812650ceb"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:01.614-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "12ce8b96-8922-4e1a-82d5-f93812650ceb"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:05.038-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "4243352d-d5cd-4a32-9a8c-dc1d45787860"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:05.039-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-1",
+  "mdc" : {
+    "correlationId" : "4243352d-d5cd-4a32-9a8c-dc1d45787860"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:09.826-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-2",
+  "mdc" : {
+    "correlationId" : "58035157-614d-4aff-8d55-be8efac5ac53"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:09.827-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-2",
+  "mdc" : {
+    "correlationId" : "58035157-614d-4aff-8d55-be8efac5ac53"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:11.749-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-3",
+  "mdc" : {
+    "correlationId" : "832d96c9-3b92-49af-b536-237f85a7a819"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:11.749-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-3",
+  "mdc" : {
+    "correlationId" : "832d96c9-3b92-49af-b536-237f85a7a819"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:25.674-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-5",
+  "mdc" : {
+    "correlationId" : "46290422-d4a0-4b1f-a6c8-03819b1b2b78"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:25.674-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-5",
+  "mdc" : {
+    "correlationId" : "46290422-d4a0-4b1f-a6c8-03819b1b2b78"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:28.911-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "e8e285f0-e2b0-4709-8795-10c87eeb679c"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:28.912-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "e8e285f0-e2b0-4709-8795-10c87eeb679c"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:29.588-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "8dcdcba9-cb70-4d3f-bfd1-a27455237fd7"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:29.589-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "8dcdcba9-cb70-4d3f-bfd1-a27455237fd7"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:39.055-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "abb67167-1c31-4fd6-a6ed-ce759a8c4f46"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T15:00:39.055-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "abb67167-1c31-4fd6-a6ed-ce759a8c4f46"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:41.989-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "15d94e56-de11-49d8-8b16-52cdc2412078"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:41.991-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-10",
+  "mdc" : {
+    "correlationId" : "15d94e56-de11-49d8-8b16-52cdc2412078"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:43.809-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-3",
+  "mdc" : {
+    "correlationId" : "68712282-4f0e-4a5b-9ad6-acd5f7a0bb6c"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:43.809-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-3",
+  "mdc" : {
+    "correlationId" : "68712282-4f0e-4a5b-9ad6-acd5f7a0bb6c"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:50.670-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-5",
+  "mdc" : {
+    "correlationId" : "dc6fca55-8329-4bc9-a914-52d963f50c83"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:50.671-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-5",
+  "mdc" : {
+    "correlationId" : "dc6fca55-8329-4bc9-a914-52d963f50c83"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:54.996-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "7c3bd18d-d3c3-41ec-9ef3-1b49cedd6dae"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:54.997-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-4",
+  "mdc" : {
+    "correlationId" : "7c3bd18d-d3c3-41ec-9ef3-1b49cedd6dae"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:58.638-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "706ef56e-5e3d-404f-a2b3-afbee26a792b"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:02:58.638-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-6",
+  "mdc" : {
+    "correlationId" : "706ef56e-5e3d-404f-a2b3-afbee26a792b"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:03:06.341-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "d8d64064-e15a-456e-ba27-a92ed2aee64a"
+  },
+  "logger" : "com.b3.api_gateway.repository.SocialActionRepository",
+  "message" : "calling social action microservice",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-23T16:03:06.341-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32256-exec-9",
+  "mdc" : {
+    "correlationId" : "d8d64064-e15a-456e-ba27-a92ed2aee64a"
+  },
+  "logger" : "com.b3.api_gateway.controller.SocialActionController",
+  "message" : "get paginate social actions",
+  "context" : "API Gateway"
 }

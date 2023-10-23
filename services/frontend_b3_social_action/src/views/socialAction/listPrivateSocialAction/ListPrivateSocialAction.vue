@@ -84,6 +84,7 @@
         </v-card>
       </v-col>
     </v-row>
+
   </v-container>
 </template>
 
@@ -119,6 +120,20 @@ export default {
     itemsPerPage: 10,
   }),
   methods: {
+    downloadQRCode() {
+      // Get the QR code data URL from the qrcode component
+      const canvas = this.$refs.qrcode[0].$refs['qrcode-vue'];
+
+      const imageDataUrl = canvas.toDataURL();
+
+      // Create a temporary anchor element to download the image
+      const downloadLink = document.createElement('a');
+      downloadLink.href = imageDataUrl;
+      downloadLink.download = 'qrcode.png';
+
+      // Trigger a click event to start the download
+      downloadLink.click();
+    },
     async onPageChange(options) {
       // this.loading = true;
       // const activitiesData = await listActivitiesService(options.page, options.itemsPerPage);

@@ -30,7 +30,7 @@
     </v-text-field>
     <v-text-field
       type="number"
-      v-model="task.vacanciesQuantity"
+      v-model="task.quantityOfVacancy"
       :error-messages="vacanciesQuantitiesErrors"
       label="Quantidade de Vagas"
       outlined
@@ -226,7 +226,7 @@ export default {
         name: '',
         description: '',
         emailContact: '',
-        vacanciesQuantity: 0,
+        quantityOfVacancy: 0,
       },
     };
   },
@@ -249,7 +249,7 @@ export default {
   computed: {
     vacanciesQuantitiesErrors() {
       const errors = [];
-      if (!this.$v.task.vacanciesQuantity.$dirty) return errors;
+      if (!this.$v.task.quantityOfVacancy.$dirty) return errors;
       // eslint-disable-next-line no-unused-expressions
       !this.$v.task.vacanciesQuantity.required && errors.push('Campo é Obrigatorio.');
       // eslint-disable-next-line no-unused-expressions
@@ -281,7 +281,7 @@ export default {
       name: {
         required,
       },
-      vacanciesQuantity: {
+      quantityOfVacancy: {
         required,
         numeric,
       },
@@ -307,7 +307,8 @@ export default {
       if (!formIsInvalid) {
         this.$emit('requestSend');
         const data = {
-          ...this.socialAction,
+          social_action_id: this.socialAction.id,
+          ...this.task,
           dateInit: this.dateInit,
           dateFinal: this.dateFinal,
           timeInit: this.timeInit,

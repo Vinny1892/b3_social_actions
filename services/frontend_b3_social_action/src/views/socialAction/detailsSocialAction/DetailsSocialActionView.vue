@@ -6,15 +6,6 @@
     >
       <v-row>
         <v-col cols="12" sm="6">
-<!--          <v-img-->
-<!--            class="ml-4"-->
-<!--            v-if="event.pathImage !== null"-->
-<!--            height="250"-->
-<!--            width="320"-->
-<!--            :src="image"-->
-<!--          ></v-img>-->
-        </v-col>
-        <v-col cols="12" sm="6">
           <v-card-title class="text-capitalize">{{ socialAction.name }}</v-card-title>
 
           <v-card-text>
@@ -72,21 +63,6 @@
 
       </v-card-text>
 
-<!--      <v-card-text-->
-<!--        v-if="event.socialMedia !== null"-->
-<!--      >-->
-<!--        <div class="text-md-subtitle-1">Midias Sociais </div>-->
-<!--        <v-chip-group-->
-<!--          column-->
-<!--        >-->
-<!--          <v-chip-->
-<!--            v-for="preRequisite in event.socialMedia.split(',')"-->
-<!--            :key="preRequisite">-->
-<!--            {{preRequisite}}-->
-<!--          </v-chip>-->
-<!--        </v-chip-group>-->
-<!--      </v-card-text>-->
-
       <v-divider v-if="socialAction.tasks.length !== 0" class="mx-4"></v-divider>
 
       <v-card-title v-if="socialAction.tasks.length !== 0" >Tarefas</v-card-title>
@@ -128,46 +104,15 @@
                 @click="alert('inscrição feita')">
                 Inscreva-se
               </v-btn>
+              <v-btn
+                color="primary"
+                v-if="task.status === 'PUBLICO'"
+                outlined
+                @click="$router.push({name: 'RegisterPresence'})">
+                Registrar Presença
+              </v-btn>
             </v-card-actions>
-<!--            <v-list >-->
-<!--              <v-list v-for="session in activity.sessions" :key="session.id">-->
-<!--                <v-card elevation="0"  style="border: 1px solid grey">-->
-<!--                  <ItemSubList-->
-<!--                    :unsetTruncateText="true"-->
-<!--                    label="Descrição"-->
-<!--                    :value="session.description"></ItemSubList>-->
-<!--                  <ItemSubList label="Status" :value="StatusSession.get(session.status.
-name)">-->
-<!--                  </ItemSubList>-->
-<!--                  <div v-if="session.dateInit !== null && session.dateFinal !== null">-->
-<!--                    <ItemSubList label="data inicio" :value="formatDate(session.dateInit)" >-->
-<!--                    </ItemSubList>-->
-<!--                    <ItemSubList label="hora inicio" :value="formatTime(session.dateInit)" >-->
-<!--                    </ItemSubList>-->
-<!--                    <ItemSubList label="data Fim" :value="formatDate(session.dateFinal)" >-->
-<!--                    </ItemSubList>-->
-<!--                    <ItemSubList label="hora Fim" :value="formatTime(session.dateFinal)" >-->
-<!--                    </ItemSubList>-->
-<!--                  </div>-->
-<!--                  <div  v-else>-->
-<!--                    <ItemSubList value="não está definido" label="data/hora final"/>-->
-<!--                    <ItemSubList value="não está definido" label="data/hora inicio"/>-->
 
-<!--                  </div>-->
-
-<!--                  <v-card-actions>-->
-<!--                    <v-btn-->
-<!--                      outlined-->
-<!--                      @click="toRegisterPresencePage(session.id)"-->
-<!--                      v-if="session.formAccreditation.name === Fo
-rmAccreditation.showQRCODE.name"-->
-<!--                    >-->
-<!--                      credenciar-->
-<!--                    </v-btn>-->
-<!--                  </v-card-actions>-->
-<!--                </v-card>-->
-<!--              </v-list>-->
-<!--            </v-list>-->
           </v-list-group>
         </v-list>
         <Modal

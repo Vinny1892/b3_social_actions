@@ -49,23 +49,25 @@ export class SocialActionRepository {
     return response.data;
   }
 
-  async update(data, id) {
-    const token = sessionStorage.getItem('token') !== null ? sessionStorage.getItem('token') : '';
+w
 
-    const response = await this.api.put(`social_actions/${id}`, data, {
+async update(data, id) {
+  const token = sessionStorage.getItem('token') !== null ? sessionStorage.getItem('token') : '';
+
+  const response = await this.api.put(`social_actions/${id}`, data, {
+    Authorization: `Bearer ${token}`,
+  });
+  return response.data;
+}
+
+async delete(id) {
+  const token = sessionStorage.getItem('token') !== null ? sessionStorage.getItem('token') : '';
+
+  const response = await this.api.delete(`social_actions/${id}`, {
+    headers: {
       Authorization: `Bearer ${token}`,
-    });
-    return response.data;
-  }
-
-  async delete(id) {
-    const token = sessionStorage.getItem('token') !== null ? sessionStorage.getItem('token') : '';
-
-    const response = await this.api.delete(`social_actions/${id}`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    return response.data;
-  }
+    },
+  });
+  return response.data;
+}
 }

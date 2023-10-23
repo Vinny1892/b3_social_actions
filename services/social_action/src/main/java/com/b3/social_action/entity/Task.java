@@ -19,6 +19,19 @@ import java.util.UUID;
 @Table(name = "task", schema = "public")
 public class Task {
 
+    public Task(UUID id, String name, int quantityOfVacancy, String status, String description, String emailContact, LocalDate dateInit, LocalDate dateFinal, LocalTime timeInit, LocalTime timeFinal){
+        this.id = id;
+        this.name = name;
+        this.quantityOfVacancy = quantityOfVacancy;
+        this.status = status;
+        this.description = description;
+        this.emailContact = emailContact;
+        this.dateInit = dateInit;
+        this.dateFinal = dateFinal;
+        this.timeInit = timeInit;
+        this.timeFinal = timeFinal;
+    }
+
     public Task(String name, int quantityOfVacancy, String status, String description, String emailContact, LocalDate dateInit, LocalDate dateFinal, LocalTime timeInit, LocalTime timeFinal ){
         this.name = name;
         this.quantityOfVacancy = quantityOfVacancy;
@@ -43,6 +56,8 @@ public class Task {
         this.timeFinal = timeFinal;
         this.socialAction = socialAction;
     }
+
+
 
 
     @Id

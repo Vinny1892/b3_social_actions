@@ -72,7 +72,7 @@ export default {
       if (result) {
         setTimeout(() => {
           this.showAlert = false;
-          this.$router.push({ name: 'ListPrivateSocialActionView' });
+          this.$router.push({ name: 'ListPublicSocialActionView' });
         }, 3000);
       }
     },

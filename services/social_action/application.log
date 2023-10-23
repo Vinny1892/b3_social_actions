@@ -36721,4 +36721,1536 @@
   "logger" : "org.springframework.web.servlet.DispatcherServlet",
   "message" : "Completed initialization in 2 ms",
   "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-21T11:33:16.850-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-21T11:33:16.867-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-21T11:33:16.873-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:15.630-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:15.668-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 28868 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:15.670-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:15.707-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:15.708-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.240-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.300-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.734-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.741-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.743-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.743-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.791-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.791-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1083 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:16.880-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.026-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27c5e270",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.027-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.065-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.134-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.137-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.294-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.422-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:17.697-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:18.389-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:18.392-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:18.804-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:19.116-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:19.134-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:19.153-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:25:19.162-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 3.994 seconds (process running for 4.742)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:30:25.032-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:30:25.033-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:30:25.034-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:33:03.615-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-7",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null] with root cause",
+  "context" : "Social Action",
+  "exception" : "java.lang.IllegalArgumentException: The given id must not be null\r\n\tat org.springframework.util.Assert.notNull(Assert.java:204)\r\n\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\r\n\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\r\n\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
+}{
+  "timestamp" : "2023-10-23T14:36:14.700-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:36:14.703-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:36:14.708-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:13.837-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:13.867-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 14236 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:13.869-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:13.905-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:13.906-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.379-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.433-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 49 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.827-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.833-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.834-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.835-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.878-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.879-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 973 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:14.976-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.090-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b4dabc7",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.092-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.121-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.163-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.165-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.259-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.358-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:15.560-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.120-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.123-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.427-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.642-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.655-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.670-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:38:16.676-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 3.283 seconds (process running for 3.862)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:41:45.825-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:41:45.825-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:41:45.826-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:12.944-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-6",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null] with root cause",
+  "context" : "Social Action",
+  "exception" : "java.lang.IllegalArgumentException: The given id must not be null\r\n\tat org.springframework.util.Assert.notNull(Assert.java:204)\r\n\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\r\n\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\r\n\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
+}{
+  "timestamp" : "2023-10-23T14:42:54.735-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:54.737-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:54.739-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:57.935-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:57.967-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 8984 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:57.969-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:58.005-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:58.005-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:58.551-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:58.608-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.420-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.428-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.431-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.431-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.487-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.487-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1481 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.595-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.715-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b11501a",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.718-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.764-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.811-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.814-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:42:59.961-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:00.077-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:00.319-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:00.924-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:00.927-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:01.612-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:03.937-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:04.157-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:04.214-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:04.297-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 6.781 seconds (process running for 7.803)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:05.582-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:05.583-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:05.600-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 16 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:18.748-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null] with root cause",
+  "context" : "Social Action",
+  "exception" : "java.lang.IllegalArgumentException: The given id must not be null\r\n\tat org.springframework.util.Assert.notNull(Assert.java:204)\r\n\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById(SimpleJpaRepository.java:301)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\r\n\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\r\n\tat jdk.proxy4/jdk.proxy4.$Proxy136.findById(Unknown Source)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:33)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
+}{
+  "timestamp" : "2023-10-23T14:43:18.779-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:18.781-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:43:18.784-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:12.781-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:12.812-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 27084 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:12.814-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:12.849-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:12.849-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.353-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.411-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.919-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.925-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.927-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.927-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.993-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:13.994-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1144 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.091-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.205-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75a9e849",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.206-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.245-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.286-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.288-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.392-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.498-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:14.730-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:15.299-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:15.302-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:15.942-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:18.495-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:18.779-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:18.849-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:18.938-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 6.594 seconds (process running for 7.204)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:19.105-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:19.106-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:44:19.122-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 15 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:03.454-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-7",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"this.quantityOfVacancy\" is null] with root cause",
+  "context" : "Social Action",
+  "exception" : "java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"this.quantityOfVacancy\" is null\r\n\tat com.b3.social_action.dto.task.CreateTaskDTO.toEntity(CreateTaskDTO.java:34)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:37)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
+}{
+  "timestamp" : "2023-10-23T14:45:14.525-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:14.528-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:14.531-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.083-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.115-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 5596 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.117-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.151-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.151-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.596-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:17.648-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.066-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.073-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.074-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.075-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.150-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.151-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 998 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.292-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.462-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c5b4c79",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.465-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.518-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.582-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.586-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.730-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:18.851-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:19.090-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:19.752-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:19.755-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.113-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.334-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.346-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.360-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.368-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 3.723 seconds (process running for 4.414)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.657-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.658-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:20.658-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:45:38.886-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-4",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"this.quantityOfVacancy\" is null] with root cause",
+  "context" : "Social Action",
+  "exception" : "java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"this.quantityOfVacancy\" is null\r\n\tat com.b3.social_action.dto.task.CreateTaskDTO.toEntity(CreateTaskDTO.java:34)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:37)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
+}{
+  "timestamp" : "2023-10-23T14:46:52.553-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:52.555-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:52.558-04",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.361-04",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 8.0.1.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.400-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Starting SocialActionApplication using Java 17.0.8 with PID 35624 (C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action\\target\\classes started by Vinicius in C:\\Users\\Vinicius\\source\\b3_social_action\\services\\social_action)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.402-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.448-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.448-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:55.962-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.012-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 44 ms. Found 5 JPA repository interfaces.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.389-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32525 (http)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.394-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.395-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.396-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.437-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.437-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 988 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.515-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.613-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@152acc1d",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.614-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.641-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.683-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.7.Final",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.685-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.775-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:56.866-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:57.063-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.bytecode.internal.BytecodeProviderInitiator",
+  "message" : "HHH000021: Bytecode provider name : bytebuddy",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:57.574-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:57.576-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:57.872-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:58.076-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:58.089-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-32525\"]",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:58.103-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 32525 (http) with context path ''",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:46:58.111-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.social_action.SocialActionApplication",
+  "message" : "Started SocialActionApplication in 3.403 seconds (process running for 4.199)",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:01.277-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:01.277-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:01.278-04",
+  "level" : "INFO",
+  "thread" : "http-nio-32525-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:26.115-04",
+  "level" : "WARN",
+  "thread" : "http-nio-32525-exec-7",
+  "logger" : "org.hibernate.engine.jdbc.spi.SqlExceptionHelper",
+  "message" : "SQL Error: 0, SQLState: 22007",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:26.116-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-7",
+  "logger" : "org.hibernate.engine.jdbc.spi.SqlExceptionHelper",
+  "message" : "ERROR: invalid input syntax for type date: \"17:30:00-04\"\n  Onde: unnamed portal parameter $10 = '...'",
+  "context" : "Social Action"
+}{
+  "timestamp" : "2023-10-23T14:47:26.124-04",
+  "level" : "ERROR",
+  "thread" : "http-nio-32525-exec-7",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: invalid input syntax for type date: \"17:30:00-04\"\n  Onde: unnamed portal parameter $10 = '...'] [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into public.task (created_at,date_final,date_init,description,email_contact,name,quantity_of_vacancy,social_action_id,status,time_final,time_init,updated_at,id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)]] with root cause",
+  "context" : "Social Action",
+  "exception" : "org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: \"17:30:00-04\"\n  Onde: unnamed portal parameter $10 = '...'\r\n\tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)\r\n\tat org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)\r\n\tat org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)\r\n\tat org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)\r\n\tat org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)\r\n\tat org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)\r\n\tat org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)\r\n\tat com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)\r\n\tat com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)\r\n\tat org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275)\r\n\tat org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:108)\r\n\tat org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40)\r\n\tat org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:53)\r\n\tat org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:169)\r\n\tat org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:111)\r\n\tat org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2762)\r\n\tat org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:102)\r\n\tat org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)\r\n\tat org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:502)\r\n\tat org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:358)\r\n\tat org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)\r\n\tat org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)\r\n\tat org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412)\r\n\tat org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485)\r\n\tat org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2301)\r\n\tat org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1966)\r\n\tat org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)\r\n\tat org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)\r\n\tat org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)\r\n\tat org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)\r\n\tat org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)\r\n\tat org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)\r\n\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)\r\n\tat jdk.proxy4/jdk.proxy4.$Proxy134.save(Unknown Source)\r\n\tat com.b3.social_action.service.TaskService.createTask(TaskService.java:39)\r\n\tat com.b3.social_action.controller.TaskController.createTaskDTO(TaskController.java:23)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:833)\r\n"
 }

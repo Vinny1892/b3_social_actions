@@ -29,6 +29,7 @@ public record CreateTaskDTO(
 
     public Task toEntity(){
         return new Task(
+                UUID.randomUUID(),
                 this.name,
                 this.quantityOfVacancy,
                 this.status,

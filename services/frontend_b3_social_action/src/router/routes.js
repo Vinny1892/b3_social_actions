@@ -8,9 +8,20 @@ import UpdateSocialActionView from '@/views/socialAction/updateSocialAction/Upda
 import ListPrivateSocialAction
   from '@/views/socialAction/listPrivateSocialAction/ListPrivateSocialAction.vue';
 import CreateTaskView from '@/views/task/createTask/CreateTaskView.vue';
+import RegisterPresenceView from '@/views/presence/RegisterPresenceView/RegisterPresenceView.vue';
 
 // eslint-disable-next-line import/prefer-default-export
 export const routes = [
+  {
+    path: '/',
+    redirect: (to) => '/social-action/public',
+  },
+  {
+    path: '/task/:id/credenciar',
+    name: 'RegisterPresence',
+    component: RegisterPresenceView,
+    meta: { auth: true },
+  },
   {
     path: '/task/create',
     name: 'CreateTaskView',
