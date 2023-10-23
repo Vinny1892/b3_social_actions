@@ -1,0 +1,77 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define DEVICONS2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons2
+!define AWSPuml https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/v16.0/dist
+
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/Storage/SimpleStorageServiceBucket.puml
+!include ICONURL/devicons/postgresql.puml
+!include DEVICONS/react.puml
+!include DEVICONS2/spring.puml
+!include DEVICONS2/redis.puml
+
+
+
+
+AddRelTag("async", $lineStyle = DashedLine())
+
+title "Diagrama de Conteineres Sistema de Gestão de Ações Sociais da B3 Social"
+
+SHOW_PERSON_PORTRAIT()
+LAYOUT_WITH_LEGEND()
+
+
+Person(user,"Usuario")
+System_Boundary(system_boundary, "Sistema de Gestão de Ações Sociais da B3 Social") {
+    Container(front_end,"Frontend","javascript,react","Interface para iteração dos usuarios com a aplicação", $sprite = "react" )
+    Container(api_gateway,"API Gateway/BFF","kong,spring","API Gateway/BFF  para centralizar chamadas e se comunicar com microserviços", $sprite = "spring")
+    Container(service_social_action,"Service Social Action","spring","Serviço para gerenciar campanhas sociais", $sprite = "spring")
+    Container(service_contract,"Service Contract","spring","Serviço para gerenciar campanhas sociais", $sprite = "spring")
+    Container(service_auth,"Service Auth","keycloak,spring","Serviço para lidar com autentiação/autorização(SSO) e gerenciamento de usuarios", $sprite = "spring")
+
+    Container(redis,"Servidor de Cache","redis","cache de informaçãoes do sistema", $sprite = "redis")
+    Container(s3,"Servidor de Armazenamento de Objeto","s3","Serviço responsável por guardar arquivos", $sprite = "SimpleStorageServiceBucket")
+
+    ContainerDb(postgres_db_1,"Database","SQL","Persiste os dados necessários do sistema", $sprite = "postgresql")
+    ContainerDb(postgres_db_2,"Database","SQL","Persiste os dados necessários do sistema", $sprite = "postgresql")
+    ContainerDb(postgres_db_3,"Database","SQL","Persiste os dados necessários do sistema", $sprite = "postgresql")
+
+}
+
+Rel(user,front_end,"interage com","HTTP")
+
+
+Rel(front_end,api_gateway,"comunicação com os microserviços", "JSON/HTTP")
+
+Rel(api_gateway,service_social_action,"comunica", "Queue", $tags = "async")
+Rel(api_gateway,service_auth,"comunica", "JSON/HTTP")
+Rel(api_gateway,service_contract,"comunica", "Queue", $tags = "async")
+Rel(api_gateway,redis,"comunica", "Queue")
+
+Rel(service_social_action,redis,"comunica", "TCP/Socket")
+Rel(service_contract,redis,"comunica", "TCP/Socket")
+
+
+Rel(service_social_action,service_auth,"comunica", "JSON/HTTP")
+Rel(service_contract,service_auth,"comunica", "JSON/HTTP")
+
+Rel(service_social_action,s3,"comunica", "TCP/Socket")
+Rel(service_contract,s3,"comunica", "TCP/Socket")
+
+
+Rel(service_social_action,service_contract,"comunica", "Queue", $tags = "async")
+Rel(service_contract,service_social_action,"comunica", "Queue", $tags = "async")
+
+
+
+
+
+Rel(service_contract,postgres_db_1,"usa")
+Rel(service_social_action,postgres_db_2,"usa")
+Rel(service_auth,postgres_db_3,"usa")
+
+
+@endumlZ
