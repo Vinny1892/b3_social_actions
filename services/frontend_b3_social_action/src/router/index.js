@@ -19,7 +19,6 @@ function verifyHasPermission(keycloak, to, next) {
 
 router.beforeEach(async (to, from, next) => {
   const keycloak = Keycloak();
-  console.log(typeof to.meta.role);
 
   if (!keycloak.didInitialize) {
     await keycloakInit(keycloak);
@@ -31,7 +30,7 @@ router.beforeEach(async (to, from, next) => {
     verifyHasPermission(keycloak, to, next);
   }
 
-  if (!sessionStorage.getItem('token') && keycloak.token !== undefined) {
+  if (keycloak.token !== undefined) {
     sessionStorage.setItem('token', keycloak.token);
   }
   next();

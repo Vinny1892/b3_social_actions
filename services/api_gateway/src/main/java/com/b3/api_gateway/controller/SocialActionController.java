@@ -26,11 +26,28 @@ public class SocialActionController {
     SocialActionRepository socialActionRepository;
 
 
-    @GetMapping
-    public Map getSocialActions(
+    @GetMapping("/search/{search}")
+    public List search(
+            @PathVariable(value = "search") String search) throws Exception {
+        var response = socialActionRepository.search(search);
+        return response;
+    }
+
+    @GetMapping("/public")
+    public Map getPublicSocialActions(
             @RequestParam(defaultValue = "10") int size,
             @RequestParam(defaultValue = "1") int page) throws Exception {
-        var response = socialActionRepository.listPaginateSocialActions(size,page);
+        var response = socialActionRepository.listPublicPaginateSocialActions(size,page);
+        logger.info("get paginate social actions");
+
+        return response;
+    }
+
+    @GetMapping("/private")
+    public Map getPrivateSocialActions(
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "1") int page) throws Exception {
+        var response = socialActionRepository.listPrivatePaginateSocialActions(size,page);
         logger.info("get paginate social actions");
 
         return response;

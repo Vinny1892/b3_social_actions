@@ -29,15 +29,32 @@ public class SocialActionController {
     public ResponseEntity getSocialAction(
             @PathVariable(value = "id") UUID socialActionID){
         var socialAction = socialActionService.getSocialActionBy(socialActionID);
-        if(socialAction.isPresent()){
+        if(socialAction.isEmpty()){
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok().body(socialAction);
     }
 
-    @GetMapping()
-    public Page<SocialAction> getAllSocialAction(@RequestParam("page") int page, @RequestParam("size") int size){
-        return socialActionService.listSocialActions(page,size);
+    @GetMapping("/search/{search}")
+    public ResponseEntity search(
+            @PathVariable(value = "search") String search){
+        var socialAction = socialActionService.search(search);
+        if(socialAction.isEmpty()){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok().body(socialAction);
+    }
+
+
+
+    @GetMapping("/private")
+    public Page<SocialAction> getAllPrivateSocialAction(@RequestParam("page") int page, @RequestParam("size") int size){
+        return socialActionService.listPrivateSocialActions(page,size);
+    }
+
+    @GetMapping("/public")
+    public Page<SocialAction> getAllPublicSocialAction(@RequestParam("page") int page, @RequestParam("size") int size){
+        return socialActionService.listPublicSocialActions(page,size);
     }
 
     @PostMapping()

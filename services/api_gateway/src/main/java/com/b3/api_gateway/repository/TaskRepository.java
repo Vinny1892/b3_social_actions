@@ -1,16 +1,11 @@
 package com.b3.api_gateway.repository;
 
-import com.b3.api_gateway.dto.UpdateSocialActionDTO;
-import com.b3.api_gateway.helper.Request;
 import com.b3.api_gateway.helper.RequestContract;
-import com.b3.api_gateway.helpers.HeaderFactory;
+import com.b3.api_gateway.helper.HeaderFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpHeaders;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 import org.springframework.stereotype.Repository;
 
 import java.util.LinkedHashMap;
@@ -30,6 +25,15 @@ public class TaskRepository {
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
+
+    public Map search(String search) throws Exception {
+
+        var url =  String.format("%s/%s/{search}", this.baseURL, this.path);
+
+        var response = (LinkedHashMap)  this.request.makeGetRequest(url, null, null,Map.class,search);
+        return response;
+
+    }
     public Map createTask(Map dto) throws Exception {
         var url = String.format("%s/%s", this.baseURL, this.path);
 
@@ -45,6 +49,12 @@ public class TaskRepository {
     public Map deleteTask(UUID id) throws Exception {
         var url =  String.format("%s/%s/{id}", this.baseURL, this.path);
         var response = (LinkedHashMap)  this.request.makeDeleteRequest(url, null, HeaderFactory.make(),Map.class,id);
+        return response;
+    }
+
+    public Map getTaskByID(UUID id) throws Exception {
+        var url =  String.format("%s/%s/{id}", this.baseURL, this.path);
+        var response = (LinkedHashMap)  this.request.makeGetRequest(url, null, null,Map.class,id);
         return response;
     }
 }
