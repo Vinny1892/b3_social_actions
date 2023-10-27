@@ -19,10 +19,10 @@ import java.util.UUID;
 @Repository
 public class PresenceRepository {
     @Value("${baseURLSocialAction}")
-    private String baseURL;
+    publice String baseURL;
 
     @Autowired
-    private RequestContract request;
+    public RequestContract request;
 
     private String  path = "presence";
 

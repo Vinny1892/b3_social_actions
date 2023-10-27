@@ -3,7 +3,6 @@ package com.b3.api_gateway.config.interceptor;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.MDC;
-;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.util.Optional;

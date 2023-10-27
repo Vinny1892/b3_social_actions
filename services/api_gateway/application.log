@@ -23096,4 +23096,334 @@ This generated password is for development use only. Your security configuration
   "logger" : "org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver",
   "message" : "Resolved [com.b3.api_gateway.exceptions.BadRequestException: erro ao processar requisição]",
   "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:14.085-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication using Java 17.0.8.1 with PID 16738 (/home/pedro/b3_social_actions/services/api_gateway/target/classes started by pedro in /home/pedro/b3_social_actions/services/api_gateway)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:14.103-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.b3.api_gateway.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:14.147-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:14.147-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.422-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 32256 (http)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.429-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-32256\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.432-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.433-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.484-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.485-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1337 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.651-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.RemoteDevToolsAutoConfiguration",
+  "message" : "Listening for remote restart updates on /.~~spring-boot!~/restart",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.902-04",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext",
+  "message" : "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/b3/api_gateway/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.905-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Stopping service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.924-04",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger",
+  "message" : "\n\nError starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T20:54:15.940-04",
+  "level" : "ERROR",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.SpringApplication",
+  "message" : "Application run failed",
+  "context" : "API Gateway",
+  "exception" : "org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/b3/api_gateway/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:825)\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:778)\n\tat org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)\n\tat org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)\n\tat org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)\n\tat org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)\n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)\n\tat org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)\n\tat org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:312)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)\n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)\n\tat com.b3.api_gateway.ApiGatewayApplication.main(ApiGatewayApplication.java:10)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/b3/api_gateway/config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)\n\tat org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)\n\tat org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1633)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1597)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1488)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1375)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)\n\tat org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:817)\n\t... 25 common frames omitted\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.SecurityFilterChain]: Factory method 'securityFilterChain' threw exception with message: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)\n\t... 41 common frames omitted\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcHandlerMappingIntrospector' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)\n\tat org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)\n\tat org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)\n\tat org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.createMvcMatchers(AbstractRequestMatcherRegistry.java:112)\n\tat org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:210)\n\tat org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.requestMatchers(AbstractRequestMatcherRegistry.java:276)\n\tat com.b3.api_gateway.config.SecurityConfig.lambda$2(SecurityConfig.java:24)\n\tat org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests(HttpSecurity.java:1466)\n\tat com.b3.api_gateway.config.SecurityConfig.securityFilterChain(SecurityConfig.java:23)\n\tat com.b3.api_gateway.config.SecurityConfig$$SpringCGLIB$$0.CGLIB$securityFilterChain$0(<generated>)\n\tat com.b3.api_gateway.config.SecurityConfig$$SpringCGLIB$$2.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)\n\tat org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)\n\tat com.b3.api_gateway.config.SecurityConfig$$SpringCGLIB$$0.securityFilterChain(<generated>)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)\n\t... 42 common frames omitted\nCaused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'welcomePageHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)\n\tat org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)\n\tat org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)\n\tat org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:663)\n\tat org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1309)\n\tat org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:368)\n\tat org.springframework.web.servlet.handler.HandlerMappingIntrospector.initHandlerMappings(HandlerMappingIntrospector.java:110)\n\tat org.springframework.web.servlet.handler.HandlerMappingIntrospector.afterPropertiesSet(HandlerMappingIntrospector.java:98)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)\n\tat org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)\n\t... 65 common frames omitted\nCaused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]: Factory method 'welcomePageHandlerMapping' threw exception with message: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)\n\tat org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)\n\t... 81 common frames omitted\nCaused by: java.lang.Error: Unresolved compilation problem: \n\tSyntax error on token \";\", delete this token\n\n\tat com.b3.api_gateway.config.interceptor.CorrelationIDInterceptor.<init>(CorrelationIDInterceptor.java:6)\n\tat com.b3.api_gateway.config.WebConfig.addInterceptors(WebConfig.java:14)\n\tat org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addInterceptors(WebMvcConfigurerComposite.java:88)\n\tat org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addInterceptors(DelegatingWebMvcConfiguration.java:83)\n\tat org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getInterceptors(WebMvcConfigurationSupport.java:358)\n\tat org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.createWelcomePageHandlerMapping(WebMvcAutoConfiguration.java:458)\n\tat org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.welcomePageHandlerMapping(WebMvcAutoConfiguration.java:438)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n\tat org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)\n\t... 82 common frames omitted\n"
+}{
+  "timestamp" : "2023-10-26T21:05:25.626-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SocialActionControllerIntegrationTest",
+  "message" : "Starting SocialActionControllerIntegrationTest using Java 17.0.8.1 with PID 20200 (started by pedro in /home/pedro/b3_social_actions/services/api_gateway)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:25.647-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SocialActionControllerIntegrationTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:26.979-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 0 (http)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:26.994-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-auto-1\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:26.999-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:27.000-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:27.125-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:27.128-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1460 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:28.085-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 1 endpoint(s) beneath base path '/actuator'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:28.159-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fbe486c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dbc7e0a, org.springframework.security.web.context.SecurityContextHolderFilter@4e2824b1, org.springframework.security.web.header.HeaderWriterFilter@43423d40, org.springframework.security.web.authentication.logout.LogoutFilter@23c05889, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@22899683, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d18338b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f4a605f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@636fccb0, org.springframework.security.web.session.SessionManagementFilter@3c64339f, org.springframework.security.web.access.ExceptionTranslationFilter@3c7d8a4, org.springframework.security.web.access.intercept.AuthorizationFilter@3ec082a1]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:28.406-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-auto-1\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:28.421-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 43665 (http) with context path ''",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:28.436-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SocialActionControllerIntegrationTest",
+  "message" : "Started SocialActionControllerIntegrationTest in 3.131 seconds (process running for 4.007)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:29.171-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:29.172-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:05:29.175-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:12.601-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SubscriptionControllerIntegrationTest",
+  "message" : "Starting SubscriptionControllerIntegrationTest using Java 17.0.8.1 with PID 22046 (started by pedro in /home/pedro/b3_social_actions/services/api_gateway)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:12.621-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SubscriptionControllerIntegrationTest",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.858-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 0 (http)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.869-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-auto-1\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.872-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.873-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.12]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.955-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:13.957-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1317 ms",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:14.751-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 1 endpoint(s) beneath base path '/actuator'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:14.817-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.security.web.DefaultSecurityFilterChain",
+  "message" : "Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a3b1f7e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22899683, org.springframework.security.web.context.SecurityContextHolderFilter@3c64339f, org.springframework.security.web.header.HeaderWriterFilter@45fb2354, org.springframework.security.web.authentication.logout.LogoutFilter@4f6fd101, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@2558f65c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4eb1943b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e2824b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40017e98, org.springframework.security.web.session.SessionManagementFilter@6a902015, org.springframework.security.web.access.ExceptionTranslationFilter@6c66ddab, org.springframework.security.web.access.intercept.AuthorizationFilter@a99c42c]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.058-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-auto-1\"]",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.071-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 39423 (http) with context path ''",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.086-04",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.b3.api_gateway.SubscriptionControllerIntegrationTest",
+  "message" : "Started SubscriptionControllerIntegrationTest in 2.782 seconds (process running for 3.619)",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.829-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.830-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "API Gateway"
+}{
+  "timestamp" : "2023-10-26T21:11:15.832-04",
+  "level" : "INFO",
+  "thread" : "http-nio-auto-1-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "API Gateway"
 }
